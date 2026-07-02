@@ -6,7 +6,7 @@ let allProducts = [];
 async function loadProducts() {
     try {
 
-        const response = await fetch("products/products.json");
+        const response = await fetch("products.json");
 
         allProducts = await response.json();
 
@@ -88,3 +88,4 @@ buttons.forEach(button => {
 });
 
 loadProducts();
+
