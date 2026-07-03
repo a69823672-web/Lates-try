@@ -58,10 +58,10 @@ function showProducts(category) {
         card.className = "card";
 
         card.innerHTML = `
-    <div class="product-name">
-        ${item.name}
-    </div>
-`;
+            <div class="product-name">
+                ${item.name}
+            </div>
+        `;
 
         productsContainer.appendChild(card);
 
@@ -84,4 +84,3 @@ buttons.forEach(button => {
 });
 
 loadProducts();
-
